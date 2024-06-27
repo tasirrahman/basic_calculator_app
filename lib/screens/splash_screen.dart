@@ -1,3 +1,4 @@
+import 'package:basic_calculator_app/controllers/theme.dart';
 import 'package:basic_calculator_app/data/app_data.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
@@ -20,11 +21,15 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: appName,
+      theme: ThemeData(useMaterial3: customTheme.material3),
       home: Scaffold(
+        backgroundColor: customTheme.scaffoldColor,
         body: Center(
-          child: FlutterLogo(),
+          child: FlutterLogo(
+            size: 130,
+          ),
         ),
       ),
     );
