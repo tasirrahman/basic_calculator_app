@@ -1,3 +1,3 @@
-# basic_calculator_app
+Basic Calculator App created with Flutter.
 
-A new Flutter project.
+Link: 

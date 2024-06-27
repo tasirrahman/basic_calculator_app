@@ -1,4 +1,5 @@
 analyzer:
   errors:
     prefer_const_constructors: ignore
+    prefer_const_constructors_in_immutables: ignore
 include: package:flutter_lints/flutter.yaml

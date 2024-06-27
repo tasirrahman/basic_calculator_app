@@ -1,5 +1,4 @@
 // ignore_for_file: prefer_const_constructors
-
 import 'package:basic_calculator_app/data/app_data.dart';
 import 'package:basic_calculator_app/routers/page_router.dart';
 import 'package:flutter/material.dart';
